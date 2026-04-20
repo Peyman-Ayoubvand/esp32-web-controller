@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header-title">
+        <h1>LED  &nbsp;CONTROL &nbsp;PANEL</h1>
+    </div>
+    <div id="range-container">
+        <div id="red-led" class="leds">
+            <H3>RED &nbsp;LED</H3>
+            <div class="buttons">
+                <button class="on-btn" id="Turn-On-Red-LED">ON</button>
+                <button class="off-btn" id="Turn-Off-Red-LED">OFF</button>
+            </div>
+            <div class="ranges">
+                <input type="range" min="0" max="100" value="0" id="red-range">
+            </div>
+            <p class="real-value">0 %</p>
+        </div>
+        <div id="blue-led" class="leds">
+            <H3>BLUE &nbsp;LED</H3>
+            <div class="buttons">
+                <button class="on-btn" id="Turn-On-Blue-LED">ON</button>
+                <button class="off-btn" id="Turn-Off-Blue-LED">OFF</button>
+            </div>
+            <div class="ranges">
+                <input type="range" min="0" max="100" value="0" id="blue-range">
+            </div>
+            <p class="real-value">0 %</p>
+        </div>
+        <div id="white-led" class="leds">
+            <H3>WHITE &nbsp;LED</H3>
+            <div class="buttons">
+                <button class="on-btn" id="Turn-On-White-LED">ON</button>
+                <button class="off-btn" id="Turn-Off-White-LED">OFF</button>
+            </div>
+            <div class="ranges">
+                <input type="range" min="0" max="100" value="0" id="white-range">
+            </div>
+            <p class="real-value">0 %</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
