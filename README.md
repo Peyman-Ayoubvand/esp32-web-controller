@@ -12,10 +12,7 @@ A web-based IoT control system built on ESP32 that allows real-time control of L
 
 ## 🎬 Demo
 
-▶️ Watch the system in action:
-
-👉 https://youtu.be/8Q7R_TUvaRw
-
+▶️ **[Watch the system in action](https://youtu.be/8Q7R_TUvaRw)**
 ---
 
 ## 📂 Source Code
