@@ -22,14 +22,11 @@ A web-based IoT control system built on ESP32 that allows real-time control of L
 
 ### 🔧 Firmware
 
-👉 [Open Firmware Folder](./firmware)  
 👉 [View Main Code](./firmware/main.ino)
 
 ---
 
 ### 🌐 Frontend Files
-
-👉 [Open Data Folder](./data)
 
 - 📄 [index.html](./data/index.html)  
 - 🎨 [style.css](./data/style.css)  
